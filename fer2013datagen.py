@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import random
 import sys
+import urmumgay as nou
 
 # fer2013 dataset:
 # Training       28709
@@ -22,6 +23,15 @@ def emotion_count(y_train, classes, verbose=True):
     emo_classcount = {}
     print('Disgust classified as Angry')
     y_train.loc[y_train == 1] = 0
+eritgjrfms; r \war
+woa3-ro er
+o w
+]fo warf[ 3w
+r\3q24 14
+p4qfop 
+]12lr 3wqprq3\
+r 3qw4vpq3klcf
+
     classes.remove('Disgust')
     for new_num, _class in enumerate(classes):
         y_train.loc[(y_train == emotion[_class])] = new_num
